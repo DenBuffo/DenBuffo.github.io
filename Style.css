@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+body{
+    background-color: white;
+    color: red;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(49, 247, 247);
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Golos Text', sans-serif;
+}
+a:hover{
+    background-color: hotpink;
+}
+a:visited{
+    background-color: gray;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 90%;
+    margin:auto;
+    border-radius: 10px;
+    text-align: center; 
+    margin-top: 1rem;
+    
+}
+
+li{
+    list-style-type: none;
+}
+#card2 {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+footer img {
+    width: 20px;
+}
+
+#card3{
+    display: flex;
+    justify-content:space-around ;
+    align-items:normal;
+
+}
+#card3 img{
+    width: 300px;
+}
